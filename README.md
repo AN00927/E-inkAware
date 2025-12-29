@@ -9,7 +9,7 @@ We also wanted to expirement with light sensors since they are one of the cheape
 
 
 
-| Product Name | Description | Project usage | Unit Price | Quantityy | Total | Link |
+| Product Name | Description | Project usage | Unit Price | Quantity | Total | Link |
 |---|---|---|---|---|---|---|
 | 2.9” SPI E-Ink Display | Low-power monochrome e-ink display using SPI | Displays persistent info; power only on refresh and/or partial refresh | $11.22 | 1 | $11.22 | https://a.aliexpress.com/_msPID7J |
 | ESP32 DevKit / ESP32-WROOM-32 | 32-bit microcontroller | Main controller for display, sensors, power, and sleep | $6.24 | 1 | $6.24 | https://a.aliexpress.com/_mP8xeeh |
@@ -27,7 +27,7 @@ We also wanted to expirement with light sensors since they are one of the cheape
 | M2.5 Self-tapping Screws | Metric fasteners | Secure PCB & enclosure | $1.76 | 1 | $1.76 | https://www.aliexpress.us/item/2255800795894953.html |
 | Solder Kit | Soldering tools | Assembly of electronics | $16.80 | 1 | $16.80 | https://a.aliexpress.com/_mNepa05 |
 
-|  |  |  |  | Subtotal | $64.25 |  |
-|  | Contingency (price changes / flawed parts) |  | 15% | $73.89 |  |
+ Subtotal: $64.25 
+Contingency (price changes / flawed parts / Soldering mistake): 15% | $73.89 
 
 
