@@ -28,6 +28,7 @@ We also wanted to expirement with light sensors since they are one of the cheape
 | Solder Kit | Soldering tools | Assembly of electronics | $16.80 | 1 | $16.80 | https://a.aliexpress.com/_mNepa05 |
 
  Subtotal: $64.25 
-Contingency (price changes / flawed parts / Soldering mistake): 15% | $73.89 
+ Discounted: $50.23
+Contingency (price changes / flawed parts / Soldering mistake): 15% | $57.76
 
 
