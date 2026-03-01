@@ -3,6 +3,7 @@ I am creating a E-ink display that takes note of the light level around it to de
 
 A friend of mine and I made this project because we honestly thought it would be really cool to try to create our first project with a screen, since our previous projects have mostly been things that mankind could have made anytime in the last millenia (dehydrator)
 We also wanted to expirement with light sensors since they are one of the cheapest yet most effective sensors
+We will also make this over a 1-2 month period, and we'll make sure to document all of our progress.
 
 
 
