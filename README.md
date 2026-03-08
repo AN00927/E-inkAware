@@ -8,19 +8,11 @@ A friend of mine and I made this project because we honestly thought it would be
 We also wanted to expirement with light sensors since they are one of the cheapest yet most effective sensors
 We will also make this over a 1-2 month period, and we'll make sure to document all of our progress.
 We did not design a custom PCB.
+## Render
+<img width="700" alt="E-ink 3D Render" src="https://github.com/user-attachments/assets/1581c48c-2488-46ee-b95b-26dd92c254c7" />
 
-Render
-<img width="1920" height="721" alt="E-ink 3D Render (2)" src="https://github.com/user-attachments/assets/1581c48c-2488-46ee-b95b-26dd92c254c7" />
-
-
-
-
-
-
-Schematic
-<img width="496" height="426" alt="Screenshot 2026-03-08 121259" src="https://github.com/user-attachments/assets/5936b9be-d394-4dc6-b02b-7ca06a405d22" />
-
-
+## Schematic
+<img width="700" alt="Schematic" src="https://github.com/user-attachments/assets/5936b9be-d394-4dc6-b02b-7ca06a405d22" />
 
 | Product Name | Description | Project usage | Unit Price | Quantity | Total | Link |
 |---|---|---|---|---|---|---|
