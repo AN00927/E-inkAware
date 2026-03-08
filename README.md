@@ -13,6 +13,10 @@ Render
 <img width="1920" height="721" alt="E-ink 3D Render (2)" src="https://github.com/user-attachments/assets/1581c48c-2488-46ee-b95b-26dd92c254c7" />
 
 
+
+
+
+
 Schematic
 <img width="496" height="426" alt="Screenshot 2026-03-08 121259" src="https://github.com/user-attachments/assets/5936b9be-d394-4dc6-b02b-7ca06a405d22" />
 
