@@ -1,5 +1,4 @@
 /*
-  Solar-assisted e-ink firmware (single-file)
   - WeAct 2.9" B/W/R (GxEPD2_3C)
   - BLE text uploader for notes & commands
   - BH1750 ambient -> front-light PWM
