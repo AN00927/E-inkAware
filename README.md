@@ -7,13 +7,19 @@ To add notes, long press the encoder button to turn on Bluetooth. Then connect t
 A friend of mine and I made this project because we honestly thought it would be really cool to try to create our first project with a screen, since our previous projects have mostly been things that mankind could have made anytime in the last millenia (dehydrator)
 We also wanted to expirement with light sensors since they are one of the cheapest yet most effective sensors
 We will also make this over a 1-2 month period, and we'll make sure to document all of our progress.
-We did not design a custom PCB.
+We did not design a custom PCB. 
+This design was reviewed by Justin Blevins.
+
+In order to connect the electrical components, we will solder wires.
+
+
 ## Render
 <img width="700" alt="E-ink 3D Render" src="https://github.com/user-attachments/assets/1581c48c-2488-46ee-b95b-26dd92c254c7" />
 
 ## Schematic
 <img width="700" alt="Schematic" src="https://github.com/user-attachments/assets/5936b9be-d394-4dc6-b02b-7ca06a405d22" />
 
+## Bill of Materials
 | Product Name | Description | Project usage | Unit Price | Quantity | Total | Link |
 |---|---|---|---|---|---|---|
 | 2.9” SPI E-Ink Display | Low-power monochrome e-ink display using SPI | Displays persistent info; power only on refresh and/or partial refresh | $10.53 | 1 | $10.53 | https://a.aliexpress.com/_msPID7J |
@@ -32,4 +38,3 @@ We did not design a custom PCB.
 
 Subtotal: $55.06
 
-This design was reviewed by Justin Blevins
