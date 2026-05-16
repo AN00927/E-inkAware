@@ -1,5 +1,5 @@
 /*
-  - WeAct 2.9" B/W/R (GxEPD2_3C)
+  - WeAct 2.9" B/W (GxEPD2_BW)
   - BLE text uploader for notes & commands
   - BH1750 ambient -> front-light PWM
   - Rotary encoder navigation + push (wake)
@@ -22,7 +22,7 @@
 
 #include <BH1750.h>
 
-#include <GxEPD2_3C.h>          // 3-color driver
+#include <GxEPD2_BW.h>          // B&W driver
 #include <Adafruit_GFX.h>
 #include <Fonts/FreeMonoBold9pt7b.h>
 
@@ -59,8 +59,8 @@ const uint32_t INACTIVITY_MIN = 30; // minutes -> 30 minutes
 #define SERVICE_UUID   "e1230001-1234-5678-1234-56789abcdef0"
 #define CHAR_TEXT_UUID "e1230002-1234-5678-1234-56789abcdef0"
 
-// Display (GxEPD2_3C with 2.9" template)
-GxEPD2_3C<GxEPD2_290c, GxEPD2_290c::HEIGHT> display(GxEPD2_290c(EPD_CS, EPD_DC, EPD_RST, EPD_BUSY));
+// Display (GxEPD2_BW with 2.9" template)
+GxEPD2_BW<GxEPD2_290_BS, GxEPD2_290_BS::HEIGHT> display(GxEPD2_290_BS(EPD_CS, EPD_DC, EPD_RST, EPD_BUSY));
 
 // BH1750
 BH1750 lightMeter;
@@ -224,7 +224,7 @@ void drawNotesList() {
       String t = readNote(i);
       if (t.length() > 30) t = t.substring(0,27) + "...";
       if (i == selectedNoteIndex) {
-        display.setTextColor(GxEPD_RED);
+        display.setTextColor(GxEPD_BLACK);  // no red on B&W display
       } else {
         display.setTextColor(GxEPD_BLACK);
       }
@@ -451,12 +451,7 @@ void autoAdjustLight() {
   static unsigned long lastRun = 0;
   if (millis() - lastRun < 1000) return;
   lastRun = millis();
-  float lux = 0;
-  if (lightMeter.measurementReady()) {
-    lux = lightMeter.readLightLevel();
-  } else {
-    lux = lightMeter.readLightLevel();
-  }
+  float lux = lightMeter.readLightLevel();
   if (lux < LUX_THRESHOLD_ON) {
     ledcWrite(LEDC_CH, LIGHT_PWM_ON);
   } else {
