@@ -55,6 +55,7 @@
 const float DIVIDER_FACTOR = 3.0f;
 const float BAT_EMPTY_V = 3.0f;
 const float BAT_FULL_V  = 4.2f;
+static const char *PREF_NS = "einkapp";
 
 const uint32_t INACTIVITY_MIN = 30; // minutes
 
@@ -1063,7 +1064,7 @@ void setup() {
 
   pinMode(BAT_ADC_PIN, INPUT);
   analogReadResolution(12);
-  analogSetPinAttenuation(BAT_ADC_PIN, ADC_11db);
+  analogSetAttenuation(ADC_11db);
 
   setupLight();
   setupEncoderPins();
