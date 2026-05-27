@@ -1,5 +1,5 @@
 # E-inkAware
-I am creating a E-ink display that takes note of the light level around it to determine whether to turn on a reading light! The device is portable and will be display things like the time, calendar, and hopefully more complex things like real-time reminders.
+I am creating a E-ink display that takes note of the light level around it to determine whether to turn on a reading light! The device is portable and will be display things like the time, calendar, and hopefully more complex things like real-time reminders. Progress is documented and explained at [HackClub](https://blueprint.hackclub.com/projects/8115)
 
 In order to use it, you turn it on with the switch on the side. The display will show the current time and calendar. It will turn on the screen backlight based on the light level it senses. Use the rotary encoder to go between different pages! The pages are Dashboard, Notes, Note Viewer, and System info.
 To add notes, long press the encoder button to turn on Bluetooth. Then connect to "EInk_Companion" from your phone or computer and send a message formatted as NOTE: "whatever note you have". Short press the encoder to open a note or toggle the frontlight manually. If you leave it alone for 30 minutes it'll go to sleep on its own. To wake it up press the encoder. It is charged by USB-C
